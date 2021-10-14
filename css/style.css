@@ -46,6 +46,29 @@
 }
 /* / header */
 
+/* inizio main */
+.main-container {
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.scorri-sx,
+.windows,
+.scorri-dx {
+    height: 80%;
+}
+
+.scorri-sx,
+.scorri-dx {
+    width: 5vw;
+}
+
+.windows {
+    width: 90vw;
+}
 /* debug */
 /* .debug .header-container {
     height: 30px;
@@ -55,3 +78,16 @@
 /* .debug .cerchio {
     background-color: brown;
 } */
+
+.debug .main-container {
+    height: calc(100vh - 25.4px);
+}
+
+.debug .scorri-sx,
+.debug .scorri-dx {
+    background-color: brown;
+}
+
+.debug .windows {
+    background-color: chartreuse;
+}
