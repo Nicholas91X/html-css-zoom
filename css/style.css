@@ -1,0 +1,57 @@
+/* commons */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* / commons */
+
+/* header */
+.header-container {
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    padding: 3px 10px;
+    display: flex;
+    background-color: rgba(216,217,216,255);
+}
+
+.pallini {
+    width: 40%;
+}
+
+.cerchio {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.rosso {
+    background-color: rgba(255,95,88,255);
+}
+
+.giallo {
+    background-color: rgba(255,190,46,255);
+}
+
+.verde {
+    background-color: rgba(39,201,65,255);
+}
+
+.zoom-id {
+    width: 60%;
+}
+/* / header */
+
+/* debug */
+/* .debug .header-container {
+    height: 30px;
+    background-color: aqua;
+} */
+
+/* .debug .cerchio {
+    background-color: brown;
+} */
